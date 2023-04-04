@@ -1,0 +1,46 @@
+{
+  "tmm-metadata": {
+    "type": "modification",
+    "mod-specifications": {
+      "mod_version": "1.0.0",
+      "mod_authors": [
+        {
+          "name": "John Doe",
+          "contact_link": "https://example.com/contact"
+        },
+        {
+          "name": "Jane Smith",
+          "contact_link": "https://example.com/contact"
+        }
+      ],
+      "mod_description": {
+        "short": "A mod that adds new items to the game",
+        "long": "This mod adds new items to the game such as weapons and tools that can be crafted and used in the game. Screenshot one {ss_0} and screenshot two {ss_1} and screenshot three {ss_03}",
+        "screenshots": [
+          "images/image1.png",
+          "images/image2.png",
+          "images/image3.png"
+        ]
+      },
+      "donations_page": "https://example.com/donate",
+      "mod_website": "https://example.com/mod",
+      "license": "MIT",
+      "tags": [ "items", "crafting", "tools", "weapons" ],
+      "installer_path": "installer.py",
+      "install_path": "mods/example_mod",
+      "source_url": "https://github.com/username/example_mod/archive/v1.0.0.zip",
+      "github_release_url": "https://github.com/username/example_mod/releases/tag/v1.0.0",
+      "compatibility": {
+        "game_versions": [ "1.16.5", "1.17" ]
+      },
+      "dependencies": [
+        {
+          "github_release_url": "https://github.com/username/dependency_mod_1/releases/tag/v1.0.0"
+        },
+        {
+          "github_release_url": "https://github.com/username/dependency_mod_2/releases/tag/v1.0.0"
+        }
+      ]
+    }
+  }
+}
