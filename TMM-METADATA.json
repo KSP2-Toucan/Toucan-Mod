@@ -2,6 +2,7 @@
   "tmm-metadata": {
     "type": "modification",
     "mod-specifications": {
+      "mod_name": "Example Mod"
       "mod_version": "1.0.0",
       "mod_authors": [
         {
